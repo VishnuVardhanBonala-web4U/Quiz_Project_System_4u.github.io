@@ -1,0 +1,42 @@
+b{
+	animation: vishnu 4s linear infinite;
+
+}
+
+@keyframes vishnu{
+	0%{
+		color:red;
+		font-size: 20px;
+		font-family: sans-serif;
+		font-style: italic;
+		background: skyblue;
+		text-decoration: unset;
+	}
+	30%{
+		color:black;
+		font-size: 15px;
+		font-family: sans-serif;
+		font-style: inherit;
+		background: aquamarine;
+		text-transform: lowercase;
+
+	}
+	60%{
+		color:blue;
+		font-size: 12px;
+		
+		font-style: italic;
+		background:ghostwhite;
+		text-transform: uppercase;
+
+
+	}
+	90%{
+		color:yellow;
+		font-size: 20px;
+		
+		background: turquoise;
+		font-style:oblique ;
+text-transform: lowercase;
+	}
+}
